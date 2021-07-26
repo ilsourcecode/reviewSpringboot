@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>首页</title>
+</head>
+<body>
+<form th:action="@{/obj}" method="get">
+  宠物(name/age)：<input type="text" name="pet"> <br>
+  <input type="submit" value="提交">
+</form>
+</body>
+</html>

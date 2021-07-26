@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th=“http://www.thymeleaf.org”>
+<head>
+  <meta charset="UTF-8">
+  <title>首页</title>
+</head>
+<body>
+<h1>
+  Hello World!
+</h1>
+<form th:action="@{/pathVariable/1}" method="get">
+  username: <input type="text" name="username" /> <br>
+  <input type="submit" value="提交" />
+</form>
+
+<form th:action="@{/postReq}" method="post">
+  username: <input type="text" name="username" /> <br>
+  <input type="submit" value="提交" />
+</form>
+
+<a th:href="@{/redirect}">Redirect</a>
+
+<a href="/matrixVariable/boss;id=1,2;age=18;username=陶园园">MatrixVariable</a>
+<a href="/user/boss;age=17/emp;age=18">both have age field!</a>
+</body>
+</html>

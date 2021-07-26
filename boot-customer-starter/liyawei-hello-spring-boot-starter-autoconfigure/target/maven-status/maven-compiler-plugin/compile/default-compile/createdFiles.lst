@@ -1,0 +1,3 @@
+com/lyw/properties/HelloProperties.class
+com/lyw/bean/HelloService.class
+com/lyw/auto/HelloServiceAutoConfiguration.class
