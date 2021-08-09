@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: myprod
+    group:
+      myprod:
+        - pdd
+        - prod
+      mytest:
+        - test

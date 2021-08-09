@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<table>
+  <tr th:each="page,stat:${pages.getRecords()}">
+    <td th:text="${page.id}"></td>
+    <td th:text="${page.username}"></td>
+    <td th:text="${page.password}"></td>
+  </tr>
+
+  <a th:href="@{/page(pn=${pages.getCurrent()}+1)}">&gt;</a>
+</table>
+</body>
+</html>

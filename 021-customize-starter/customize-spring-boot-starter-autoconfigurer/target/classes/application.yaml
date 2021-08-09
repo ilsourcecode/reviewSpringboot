@@ -1,0 +1,4 @@
+spring:
+  hello:
+    prefix: '你好'
+    suffix: '世界'

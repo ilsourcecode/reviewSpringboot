@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bjpowernode?useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 1870168452
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.log4j2.Log4j2Impl
+    use-generated-keys: true

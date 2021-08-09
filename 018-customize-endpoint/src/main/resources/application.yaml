@@ -1,0 +1,21 @@
+info:
+  appName: boot-admin
+  appVersion: 1.0.0
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    enabled-by-default: true
+
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080
+        instance:
+          prefer-ip: true
+  application:
+    name: 018-customize-endpoint

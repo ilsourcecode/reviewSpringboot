@@ -1,0 +1,4 @@
+com/lyw/properties/HelloProperties.class
+com/lyw/config/HelloServiceAutoConfiguration.class
+com/lyw/service/impl/HelloServiceImpl.class
+com/lyw/service/HelloService.class

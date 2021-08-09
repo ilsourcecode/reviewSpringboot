@@ -12,4 +12,5 @@ spring:
   web:
     resources:
       static-locations: classpath:/lyw/
+      # 关闭静态资源处理器
       add-mappings: false
