@@ -1,0 +1,9 @@
+# 初始化器
+org.springframework.context.ApplicationContextInitializer=\
+com.lyw.applicationContextInitializer.CustomizeApplicationContextInitializer
+
+org.springframework.context.ApplicationListener=\
+com.lyw.applicationListener.CustomizeApplicationListener
+
+org.springframework.boot.SpringApplicationRunListener=\
+com.lyw.springApplicationRunListener.CustomizeSpringApplicationRunListener

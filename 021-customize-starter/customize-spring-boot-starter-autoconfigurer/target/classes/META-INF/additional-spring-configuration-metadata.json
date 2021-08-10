@@ -1,0 +1,35 @@
+{
+  "properties": [
+
+    {
+      "name": "spring.hello",
+      "type": "java.lang.String",
+      "defaultValue": "",
+      "description": "."
+    }
+  ],
+  "hints": [
+    {
+      "name": "spring.hello",
+      "values": [
+        {
+          "value": "hello",
+          "description": "hello a."
+        },
+        {
+          "value": "nihao ",
+          "description": "nihao."
+        },
+        {
+          "value": "世界",
+          "description": "shijie."
+        }
+      ],
+      "providers": [
+        {
+          "name": "any"
+        }
+      ]
+    }
+  ]
+}
